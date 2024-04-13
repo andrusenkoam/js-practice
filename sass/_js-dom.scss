@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.container-item {
+  padding: 10px;
+  flex-basis: calc((100% - 40px) / 3);
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: yellowgreen;
+  text-align: center;
+}
+
+.car-model {
+  margin-bottom: 10px;
+}
+
+.car-type {
+  margin-bottom: 10px;
+}

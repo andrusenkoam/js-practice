@@ -1,0 +1,64 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  padding: 40px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.home-link {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.practice-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.container-item {
+  padding: 10px;
+  flex-basis: calc((100% - 40px) / 3);
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: yellowgreen;
+  text-align: center;
+}
+
+.car-model {
+  margin-bottom: 10px;
+}
+
+.car-type {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=main.css.map */

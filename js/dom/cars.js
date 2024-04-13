@@ -1,0 +1,92 @@
+export default [
+  {
+    id: 1,
+    model: 'Honda',
+    type: 'Civic',
+    price: 12000,
+  },
+  {
+    id: 2,
+    model: 'Audi',
+    type: 'Q7',
+    price: 40000,
+  },
+  {
+    id: 3,
+    model: 'BMW',
+    type: '5-siries',
+    price: 9000,
+  },
+  {
+    id: 4,
+    model: 'Honda',
+    type: 'Accord',
+    price: 20000,
+  },
+  {
+    id: 5,
+    model: 'Volvo',
+    type: 'XC60',
+    price: 7000,
+  },
+  {
+    id: 6,
+    model: 'Honda',
+    type: 'Civic',
+    price: 14000,
+  },
+  {
+    id: 7,
+    model: 'Audi',
+    type: 'Q7',
+    price: 37000,
+  },
+  {
+    id: 8,
+    model: 'BMW',
+    type: '5-siries',
+    price: 11000,
+  },
+  {
+    id: 9,
+    model: 'Honda',
+    type: 'Accord',
+    price: 24000,
+  },
+  {
+    id: 10,
+    model: 'Volvo',
+    type: 'XC60',
+    price: 9000,
+  },
+  {
+    id: 11,
+    model: 'Honda',
+    type: 'Civic',
+    price: 9000,
+  },
+  {
+    id: 12,
+    model: 'Audi',
+    type: 'Q7',
+    price: 32000,
+  },
+  {
+    id: 13,
+    model: 'BMW',
+    type: '5-siries',
+    price: 13000,
+  },
+  {
+    id: 14,
+    model: 'Honda',
+    type: 'Accord',
+    price: 16000,
+  },
+  {
+    id: 15,
+    model: 'Volvo',
+    type: 'XC60',
+    price: 8000,
+  },
+];
