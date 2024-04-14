@@ -12,5 +12,15 @@
   </head>
   <body>
     <a href="./index.html" class="home-link">Go back</a>
+    <form action="submit" class="search-form js-search-form">
+      <input type="text" name="search" placeholder="Search car" />
+      <select name="select">
+        <option value="model">Model</option>
+        <option value="type">Type</option>
+      </select>
+      <button class="search-btn">Search</button>
+    </form>
+    <ul class="cars-list js-cars-list"></ul>
+    <script type="module" src="./js/event.js"></script>
   </body>
 </html>

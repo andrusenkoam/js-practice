@@ -61,4 +61,33 @@ img {
 
 .car-type {
   margin-bottom: 10px;
+}
+
+.search-form {
+  margin-bottom: 40px;
+}
+
+.cars-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.car-item {
+  padding: 10px;
+  flex-basis: calc((100% - 40px) / 3);
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: yellowgreen;
+  text-align: center;
+}
+
+.car-model {
+  margin-bottom: 10px;
+}
+
+.car-type {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */
