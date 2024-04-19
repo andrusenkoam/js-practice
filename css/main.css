@@ -90,4 +90,47 @@ img {
 
 .car-type {
   margin-bottom: 10px;
+}
+
+.result {
+  font-size: 32px;
+}
+
+.game-information {
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.game-container {
+  display: flex;
+  margin: 50px 50px 50px 50px;
+}
+
+.content {
+  width: 302px;
+  margin: 0 auto;
+  border: 1px solid #00ff00;
+}
+
+.item {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000000;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition: background-color 200ms linear;
+}
+
+.item:hover {
+  background-color: rgba(160, 219, 194, 0.3019607843);
 }/*# sourceMappingURL=main.css.map */
