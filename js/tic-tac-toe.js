@@ -79,7 +79,7 @@ function createMarkup() {
 }
 
 function isWinner(arr) {
-  return wins.some((item) => item.every((id) => arr.includes(id)));
+  return wins.some(item => item.every(id => arr.includes(id)));
 }
 
 function resetGame() {

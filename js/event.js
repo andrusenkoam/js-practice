@@ -31,8 +31,7 @@ function onSearch(evt) {
   const { search, select } = form.elements;
 
   const searchCars = cars.filter(
-    (car) =>
-      car[select.value].toLowerCase() === search.value.trim().toLowerCase()
+    car => car[select.value].toLowerCase() === search.value.trim().toLowerCase()
   );
 
   carsListEl.innerHTML = createCarsMarkup(searchCars);
