@@ -60,7 +60,6 @@ function onItemClick(evt) {
   } else if (historyX.length + historyO.length === 9) {
     resultEl.textContent = 'Try again 🤝';
     friendlyShipEl.textContent = friendlyShip += 1;
-    console.log(friendlyShip);
     resetGame();
     return;
   }
