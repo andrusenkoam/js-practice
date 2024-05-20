@@ -14,6 +14,7 @@ const wins = [
   [1, 5, 9],
   [3, 5, 7],
 ];
+
 let historyX = [];
 let historyO = [];
 let player = 'X';
